@@ -1,0 +1,3392 @@
+.tags li a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home-nav{
+    padding-left: 20%;
+}
+
+@media (min-width:05px) and (max-width:300px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    nav {
+        background: #E5F8FF;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags {
+        gap: 15px;
+        display: flex;
+        list-style: none;
+    }
+
+
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: inherit;
+        color: #45aed1 !important;
+    }
+
+    .bookNowBtn {
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+        background: #19A1CF;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    div#navbarSupportedContent {
+        margin-bottom: 50px;
+    }
+
+
+    /* about starts */
+
+    .about-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .about {
+        width: 90%;
+        background: #E5F8FF;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .abimg {
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat !important;
+        border-radius: 150px 0px 150px 0px;
+        background: url(./images/abt.png);
+    }
+
+    .abcontent {
+        width: 100%;
+        text-align: justify;
+        text-wrap: wrap;
+    }
+
+    .abcontent h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .abcontent h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    .abcontent p {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+        margin-bottom: 5px;
+    }
+
+    .abcontent button {
+        width: 174px;
+        height: 64px;
+        top: 481px;
+        border-radius: 10px;
+        background: #19A1CF;
+
+        border: none;
+        margin-top: 30px;
+    }
+
+    .abcontent button a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .more-content {
+        display: none;
+    }
+
+    /* about ends */
+
+
+
+    /* quick starts  */
+
+    .quick-section {
+        width: 100%;
+        background: #87B356;
+
+    }
+
+
+
+    .quick {
+        background: #87B356;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .qwk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 60px 20px;
+    }
+
+    .qwk h1 {
+        font-size: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* quick ends  */
+
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+
+    /* review starts */
+    .review-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39.94px;
+    }
+
+
+    .review {
+        padding: 60px 20px;
+
+
+    }
+
+    .carousel {
+        position: relative;
+        /* max-width: 1200px; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recontainer {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(426px * 5);
+        /* Number of rept items * width */
+    }
+
+    .recontent {
+        padding-bottom: 40px;
+    }
+
+    .recontent h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .recontent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* .recontainer {
+    width: 1, 298px;
+    height: 357.48px;
+    left: 70px;
+    gap: 10px;
+
+} */
+
+    .rept {
+        flex: 0 0 426px;
+        width: 100%;
+        margin: 0px 10px;
+        /* width: 426px;
+    height: 358px; */
+        padding: 32.08px;
+        gap: 16.04px;
+        border-radius: 5.35px;
+        border: 1.34px;
+        background: #FFFFFF;
+        border: 1.34px solid #C4C5C5;
+    }
+
+    .rept h1 {
+        font-family: "Manrope", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #0D0D0D;
+    }
+
+    .rept p {
+        font-family: "Manrope", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.22px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #4C4847;
+        margin-top: 10px;
+
+    }
+
+    .rept1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .indicator {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* review ends */
+
+}
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+
+@media (min-width:301px) and (max-width:575px) {
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    nav {
+        background: #E5F8FF;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags {
+        gap: 15px;
+        display: flex;
+        list-style: none;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: inherit;
+        color: #45aed1 !important;
+    }
+
+    .bookNowBtn {
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+        background: #19A1CF;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    div#navbarSupportedContent {
+        margin-bottom: 50px;
+    }
+
+
+
+
+
+
+    /* about starts */
+
+    .about-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .about {
+        width: 90%;
+        background: #E5F8FF;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .abimg {
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat !important;
+        border-radius: 150px 0px 150px 0px;
+        background: url(./images/abt.png);
+    }
+
+    .abcontent {
+        width: 100%;
+        text-align: justify;
+        text-wrap: wrap;
+    }
+
+    .abcontent h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .abcontent h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    .abcontent p {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+        margin-bottom: 5px;
+    }
+
+    .abcontent button {
+        width: 174px;
+        height: 64px;
+        top: 481px;
+        border-radius: 10px;
+        background: #19A1CF;
+
+        border: none;
+        margin-top: 30px;
+    }
+
+    .abcontent button a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .more-content {
+        display: none;
+        /* Hide the additional content by default */
+    }
+
+    /* about ends */
+
+
+
+
+
+    /* about ends */
+
+
+
+
+    /* quick starts  */
+
+    .quick-section {
+        width: 100%;
+        background: #87B356;
+
+    }
+
+
+
+    .quick {
+        background: #87B356;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .qwk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 60px 20px;
+    }
+
+    .qwk h1 {
+        font-size: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* quick ends  */
+
+
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+    /* service ends  */
+
+
+
+
+    /* review starts */
+    .review-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39.94px;
+    }
+
+
+    .review {
+        padding: 60px 20px;
+
+
+    }
+
+    .carousel {
+        position: relative;
+        /* max-width: 1200px; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recontainer {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(426px * 5);
+        /* Number of rept items * width */
+    }
+
+    .recontent {
+        padding-bottom: 40px;
+    }
+
+    .recontent h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .recontent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+
+    .rept {
+        /* flex: 0 0 426px; */
+        width: 100%;
+        margin: 0px 10px;
+        padding: 32.08px;
+        gap: 16.04px;
+        border-radius: 5.35px;
+        border: 1.34px;
+        background: #FFFFFF;
+        border: 1.34px solid #C4C5C5;
+    }
+
+    .rept h1 {
+        font-family: "Manrope", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #0D0D0D;
+    }
+
+    .rept p {
+        font-family: "Manrope", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.22px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #4C4847;
+        margin-top: 10px;
+
+    }
+
+    .rept1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .indicator {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* review ends */
+
+}
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
+
+@media (min-width: 575px) and (max-width: 767px) {
+
+    nav {
+        background: #E5F8FF;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags {
+        gap: 15px;
+        display: flex;
+        list-style: none;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: inherit;
+        color: #45aed1 !important;
+    }
+
+    .bookNowBtn {
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+        background: #19A1CF;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    div#navbarSupportedContent {
+        margin-bottom: 50px;
+    }
+
+    /* ----navbar ends---------- */
+
+
+
+    /* about starts */
+
+    .about-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .about {
+        width: 90%;
+        background: #E5F8FF;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .abimg {
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat !important;
+        border-radius: 150px 0px 150px 0px;
+        background: url(./images/abt.png);
+    }
+
+    .abcontent {
+        width: 100%;
+        text-align: justify;
+        text-wrap: wrap;
+    }
+
+    .abcontent h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .abcontent h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    .abcontent p {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+        margin-bottom: 5px;
+    }
+
+    .abcontent button {
+        width: 174px;
+        height: 64px;
+        top: 481px;
+        border-radius: 10px;
+        background: #19A1CF;
+
+        border: none;
+        margin-top: 30px;
+    }
+
+    .abcontent button a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .more-content {
+        display: none;
+        /* Hide the additional content by default */
+    }
+
+    /* about ends */
+
+
+
+
+
+    /* quick starts  */
+    .quick-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        gap: 161px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .quick {
+        background: #87B356;
+        margin: 20px auto;
+    }
+
+    .qwk {
+        display: inline-block;
+        gap: 5px;
+        margin: 60px 40px;
+    }
+
+    .qwk h1 {
+        font-size: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* quick ends  */
+
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+
+    /* review starts */
+    .review-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39.94px;
+    }
+
+
+    .review {
+        padding: 60px 20px;
+
+
+    }
+
+    .carousel {
+        position: relative;
+        /* max-width: 1200px; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recontainer {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(426px * 5);
+        /* Number of rept items * width */
+    }
+
+    .recontent {
+        padding-bottom: 40px;
+    }
+
+    .recontent h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .recontent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+    .rept {
+        /* flex: 0 0 426px; */
+        width: 100%;
+        margin: 0px 10px;
+        padding: 32.08px;
+        gap: 16.04px;
+        border-radius: 5.35px;
+        border: 1.34px;
+        background: #FFFFFF;
+        border: 1.34px solid #C4C5C5;
+    }
+
+    .rept h1 {
+        font-family: "Manrope", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #0D0D0D;
+    }
+
+    .rept p {
+        font-family: "Manrope", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.22px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #4C4847;
+        margin-top: 10px;
+
+    }
+
+    .rept1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .indicator {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* review ends */
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    nav {
+        background: #E5F8FF;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags {
+        gap: 15px;
+        display: flex;
+        list-style: none;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: inherit;
+        color: #45aed1 !important;
+    }
+
+    .bookNowBtn {
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+        background: #19A1CF;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    div#navbarSupportedContent {
+        margin-bottom: 50px;
+    }
+
+    /* ----navbar ends---------- */
+
+
+
+    /* about starts */
+
+    .about-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .about {
+        width: 90%;
+        background: #E5F8FF;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .abimg {
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat !important;
+        border-radius: 150px 0px 150px 0px;
+        background: url(./images/abt.png);
+    }
+
+    .abcontent {
+        width: 100%;
+        text-align: justify;
+        text-wrap: wrap;
+    }
+
+    .abcontent h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .abcontent h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    .abcontent p {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+        margin-bottom: 5px;
+    }
+
+    .abcontent button {
+        width: 174px;
+        height: 64px;
+        top: 481px;
+        border-radius: 10px;
+        background: #19A1CF;
+
+        border: none;
+        margin-top: 30px;
+    }
+
+    .abcontent button a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .more-content {
+        display: none;
+        /* Hide the additional content by default */
+    }
+
+    /* about ends */
+
+
+
+    /* quick starts  */
+
+    .quick-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        gap: 161px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .quick {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .qwk {
+        display: inline-block;
+        padding: 20px 40px;
+    }
+
+
+
+    .qwk h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* quick ends  */
+
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+
+    /* review starts */
+    .review-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39.94px;
+    }
+
+
+    .review {
+        padding: 60px 20px;
+
+
+    }
+
+    .carousel {
+        position: relative;
+        /* max-width: 1200px; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recontainer {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(426px * 5);
+        /* Number of rept items * width */
+    }
+
+    .recontent {
+        padding-bottom: 40px;
+    }
+
+    .recontent h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .recontent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* .recontainer {
+    width: 1, 298px;
+    height: 357.48px;
+    left: 70px;
+    gap: 10px;
+
+} */
+
+    .rept {
+        flex: 0 0 426px;
+        width: 100%;
+        margin: 0px 10px;
+        /* width: 426px;
+    height: 358px; */
+        padding: 32.08px;
+        gap: 16.04px;
+        border-radius: 5.35px;
+        border: 1.34px;
+        background: #FFFFFF;
+        border: 1.34px solid #C4C5C5;
+    }
+
+    .rept h1 {
+        font-family: "Manrope", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #0D0D0D;
+    }
+
+    .rept p {
+        font-family: "Manrope", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.22px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #4C4847;
+        margin-top: 10px;
+
+    }
+
+    .rept1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .indicator {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* review ends */
+
+
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+    /* nav ends  */
+
+    nav {
+        background: #E5F8FF;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags {
+        gap: 100px;
+        display: flex;
+        list-style: none;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: inherit;
+        color: #45aed1 !important;
+    }
+
+    .bookNowBtn {
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+        background: #19A1CF;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    /* nav end */
+
+
+
+
+    /* about starts */
+
+    .about-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .about {
+        width: 90%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .abimg {
+        width: 100%;
+        background-repeat: no-repeat !important;
+        height: 550px;
+        border-radius: 150px 0px 150px 0px;
+        background: url(./images/abt.png);
+    }
+
+    .abcontent {
+        width: 654px;
+    }
+
+    .abcontent h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .abcontent h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    .abcontent p {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+        margin-bottom: 5px;
+    }
+
+    .abcontent button {
+        width: 174px;
+        height: 64px;
+        top: 481px;
+        border-radius: 10px;
+        background: #19A1CF;
+
+        border: none;
+        margin-top: 30px;
+    }
+
+    .abcontent button a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .more-content {
+        display: none;
+    }
+
+    /* about ends */
+
+
+
+    /* quick starts  */
+    .quick-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        gap: 161px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .quick {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .qwk {
+        display: inline-block;
+        padding: 20px 80px;
+        /* display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 8px; */
+    }
+
+
+
+    .qwk h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* quick ends  */
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+
+    /* review starts */
+    .review-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39.94px;
+    }
+
+
+    .review {
+        padding: 60px 20px;
+
+
+    }
+
+    .carousel {
+        position: relative;
+        /* max-width: 1200px; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recontainer {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(426px * 5);
+        /* Number of rept items * width */
+    }
+
+    .recontent {
+        padding-bottom: 40px;
+    }
+
+    .recontent h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .recontent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* .recontainer {
+    width: 1, 298px;
+    height: 357.48px;
+    left: 70px;
+    gap: 10px;
+
+} */
+
+    .rept {
+        flex: 0 0 426px;
+        width: 100%;
+        margin: 0px 10px;
+        /* width: 426px;
+    height: 358px; */
+        padding: 32.08px;
+        gap: 16.04px;
+        border-radius: 5.35px;
+        border: 1.34px;
+        background: #FFFFFF;
+        border: 1.34px solid #C4C5C5;
+    }
+
+    .rept h1 {
+        font-family: "Manrope", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #0D0D0D;
+    }
+
+    .rept p {
+        font-family: "Manrope", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.22px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #4C4847;
+        margin-top: 10px;
+
+    }
+
+    .rept1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .indicator {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* review ends */
+
+
+
+
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* ------------------------------------------------- */
+
+@media (min-width: 1200px) {
+
+
+
+    /* nav ends  */
+
+    nav {
+        background: #E5F8FF;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags {
+        gap: 100px;
+        display: flex;
+        list-style: none;
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        background-color: inherit;
+        color: #45aed1 !important;
+    }
+
+    .bookNowBtn {
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 12px 25px;
+        font-weight: 500;
+        line-height: 18.75px;
+        text-align: center;
+        background: #19A1CF;
+        color: #FFFFFF;
+        border: none;
+    }
+
+    /* nav end */
+
+
+
+
+    /* about starts */
+
+    .about-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .about {
+        width: 90%;
+        background: #E5F8FF;
+        display: flex;
+        gap: 45px;
+        padding: 60px 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .abimg {
+        width: 620px;
+        height: 550px;
+        border-radius: 150px 0px 150px 0px;
+        background: url(./images/abt.png);
+    }
+
+    .abcontent {
+        width: 654px;
+    }
+
+    .abcontent h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+    }
+
+    .abcontent h2 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+    .abcontent p {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+        margin-bottom: 5px;
+    }
+
+    .abcontent button {
+        width: 174px;
+        height: 64px;
+        top: 481px;
+        border-radius: 10px;
+        background: #19A1CF;
+
+        border: none;
+        margin-top: 30px;
+    }
+
+    .abcontent button a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .more-content {
+        display: none;
+        /* Hide the additional content by default */
+    }
+
+    /* about ends */
+
+
+
+
+    /* quick starts  */
+
+    .quick-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        gap: 161px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .quick {
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .qwk {
+        display: inline-block;
+        padding: 20px 80px;
+    }
+
+    .qwk h1 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* quick ends  */
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        /* width: 408px; */
+        width: 300px;
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 300px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+    /* service starts  */
+
+    .service-section {
+        width: 100%;
+        background: #E5F8FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        padding: 60px 10px;
+    }
+
+
+    .service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40.13px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .seabt h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .seabt p {
+        padding-bottom: 40px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #4C4847;
+    }
+
+    .secontent {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .pt1,
+    .pt2,
+    .pt3,
+    .pt4,
+    .pt5,
+    .pt6,
+    .pt7,
+    .pt8,
+    .pt9,
+    .pt10 {
+        display: flex;
+        /* gap: 38px; */
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    .pt {
+        width: 408px;
+        /* width: 300px; */
+        /* height: 483px; */
+        background: #FFFFFF;
+    }
+
+    .pt img {
+        width: 400px;
+    }
+
+    .ptpt,
+    .musco {
+        padding: 25px;
+    }
+
+
+
+    .ptpt h1,
+    .musco h1 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        color: #000000;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+
+    .ptpt p,
+    .musco p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+        color: #4C4847;
+    }
+
+    .ptpt button,
+    .musco button {
+        width: 60%;
+        height: 40px;
+        border-radius: 10px;
+        background: #19A1CF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .service a {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /* service ends  */
+
+
+
+
+    /* review starts */
+    .review-section {
+        width: 100%;
+        background: #87B356;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 39.94px;
+    }
+
+
+    .review {
+        padding: 60px 20px;
+
+
+    }
+
+    .carousel {
+        position: relative;
+        /* max-width: 1200px; */
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .recontainer {
+        display: flex;
+        transition: transform 0.5s ease;
+        width: calc(426px * 5);
+        /* Number of rept items * width */
+    }
+
+    .recontent {
+        padding-bottom: 40px;
+    }
+
+    .recontent h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .recontent {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    /* .recontainer {
+    width: 1, 298px;
+    height: 357.48px;
+    left: 70px;
+    gap: 10px;
+
+} */
+
+    .rept {
+        flex: 0 0 426px;
+        width: 100%;
+        margin: 0px 10px;
+        /* width: 426px;
+    height: 358px; */
+        padding: 32.08px;
+        gap: 16.04px;
+        border-radius: 5.35px;
+        border: 1.34px;
+        background: #FFFFFF;
+        border: 1.34px solid #C4C5C5;
+    }
+
+    .rept h1 {
+        font-family: "Manrope", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 40.18px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #0D0D0D;
+    }
+
+    .rept p {
+        font-family: "Manrope", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.22px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #4C4847;
+        margin-top: 10px;
+
+    }
+
+    .rept1 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .indicators {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .indicator {
+        height: 15px;
+        width: 15px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* review ends */
+
+}
+
+
+
+/* ----------------------------END MEDIA QUERY------------------------- */
+
+
+
+
+
+/* -------footer--------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+/* footer section styles */
+
+.copyright {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.footer-section {
+    width: 100%;
+    background: #403F3F;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+
+/* First column styles */
+.foo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.foo-img img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.foo-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.foo-socials a {
+    text-decoration: none;
+}
+
+/* Second column styles */
+.foo2 {
+    padding-top: 20px;
+}
+
+.foo2 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.foo2 ul {
+    padding: 0;
+}
+
+.foo2 ul li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.foo2 ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.foo2 ul li a:hover {
+    color: #5dee76;
+}
+
+/* Footer responsive styles */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foo1,
+    .foo2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .foo2 ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .foo-socials {
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .foo-img img {
+        height: 60px;
+    }
+
+    .foo2 h1 {
+        font-size: 16px;
+    }
+
+    .foo2 ul li a {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* -------------------------------Modal------------------------ */
+
+
+/* Form container - hidden by default */
+.form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    width: 400px;
+    max-width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Close button */
+.form-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.form-close:hover,
+.form-close:focus {
+    color: red;
+    text-decoration: none;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container textarea {
+    resize: vertical;
+    width: 100%;
+}
+
+.form-container button[type="submit"] {
+    background-color: #19A1CF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #17a1c0;
+}
+
+
+
+
+/* Modal background */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

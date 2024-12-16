@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <title>Holistic Physiotherapists</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="address">
+            <img src="./images/ion_location.png" alt="">
+            <div class="address-text">
+                <p>Oop .Shanthinikethan School, Bhadrappalayout, Maruti Nagar, Bengaluru</p>
+            </div>
+        </div>
+        <div class="detail">
+            <div class="phone">
+                <a href="tel:+8686285108">
+                    <img src="./images/ic_round-phone.png" alt="">
+                    <h5>+91-8686285108</h5>
+                </a>
+            </div>
+            <div class="mail">
+                <a href="mailto:physioholistic155@gmail.com?subject=Hello&body=This%20is%20a%20test%20email">
+                    <img src="./images/material-symbols_mail.png" alt="Mail Icon">
+                    <h5>physioholistic155@gmail.com</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Top ends -->
+
+
+    <!-- Nav starts -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand  logo" href="#">
+                <img src="./images/IMG-20240812-WA0003-removebg-preview 1.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse all" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 tags">
+                    <li class="nav-item">
+                        <a class="nav-link active home-nav" aria-current="page" href="#" >Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <div>
+                    <button class="bookNowBtn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav ends -->
+
+
+    
+    <!-- Hidden Form -->
+    <div id="bookingForm" class="form-container">
+        <div class="form-content">
+            <span class="form-close">&times;</span>
+            <br>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="details">Details</label>
+                <textarea id="details" name="details" rows="4" placeholder="Provide additional details..."></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- home starts  -->
+    <div class="container-fluid">
+        <div class="home" id="home">
+            <img src="./images/home.png" alt="" class="background-image">
+            <div class="overlay"></div>
+            <div class="home-content">
+                <h1>Move Better, Live Better</h1>
+                <h3>Personalized Physiotherapy Care to Restore Your Strength and Enhance Your Quality of Life</h3>
+                <button class="bookNowBtn">Get Started</button>
+            </div>
+        </div>
+    </div>
+    <!-- home ends  -->
+
+    <!-- about starts  -->
+    <div class="about-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12  col-lg-12 col-md-12 about">
+                    <div class="abimg"></div>
+                    <div class="abcontent">
+                        <h1>About Us</h1>
+                        <h2>Physiotherapy Center</h2>
+                        <p>Welcome to Holistic Physio, where we are dedicated to enhancing your well-being through a
+                            comprehensive range of therapies and treatments. Led by Dr. M. Venugopal, a highly qualified
+                            and
+                            experienced professional in the field of physical therapy, our clinic integrates advanced
+                            therapeutic
+                            techniques with a compassionate approach to care.</p>
+                        <div class="more-content">
+                            <p>At holistic Clinic, we believe in a holistic approach to physical therapy that considers
+                                not just
+                                the
+                                symptoms but the overall well-being of each individual. Our services are designed to
+                                address a
+                                wide
+                                range of conditions and promote optimal health, from pain management and rehabilitation
+                                to
+                                preventive care and wellness optimization.</p>
+                        </div>
+                        <button id="learn-more">
+                            <a href="./about.html">Learn more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about ends  -->
+
+    <!-- Modal -->
+    <!-- <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1>About Us</h1>
+            <p>Welcome to [Your Clinic/Practice Name], where we are dedicated to enhancing your well-being through a
+                comprehensive range of therapies and treatments. Led by Dr. M. Venugopal, a highly qualified and
+                experienced professional in the field of physical therapy, our clinic integrates advanced therapeutic
+                techniques with a compassionate approach to care.</p>
+            <p>Dr. Venugopal holds a Bachelor’s and Master’s degree in Physical Therapy (B.P.T and M.P.T) and is a
+                certified member of the Indian Association of Physiotherapists (MIAP). With specialized training in
+                Cupping Therapy, Dry Needling, and Postgraduate Yoga and Therapy, Dr. Venugopal brings a wealth of
+                knowledge and expertise to our practice. His commitment to ongoing education and professional
+                development ensures that we offer the latest and most effective treatments to support your health and
+                recovery.</p>
+            <p>At holistic Clinic, we believe in a holistic approach to physical therapy that considers not just the
+                symptoms but the overall well-being of each individual. Our services are designed to address a wide
+                range of conditions and promote optimal health, from pain management and rehabilitation to preventive
+                care and wellness optimization.</p>
+
+        </div>
+    </div> -->
+
+    <!-- quick about starts -->
+
+    <div class="quick-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12  col-sm-12 col-lg-12">
+                    <div class="quick">
+                        <div class="qwk">
+                            <img src="./images/Group.png" alt="">
+                            <h1>Problem Solve</h1>
+                            <h1>500+</h1>
+                        </div>
+                        <div class="qwk">
+                            <img src="./images/Vector.png" alt="">
+                            <h1>Happy Patient</h1>
+                            <h1>1000+</h1>
+                        </div>
+                        <div class="qwk">
+                            <img src="./images/Vector (1).png" alt="">
+                            <h1>Experiences</h1>
+                            <h1>7+ Years</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- quick about ends -->
+
+
+
+    <!-- service starts  -->
+    <div class="service-section">
+        <div class="container">
+            <div class="service" id="service">
+                <div class="seabt">
+                    <h1>Our Healthcare Services</h1>
+                    <p>Experience advanced physiotherapy services focused on restoring your mobility and well-being.
+                        We’re
+                        here
+                        to guide you from pain to full recovery.</p>
+                </div>
+                <div class="secontent">
+                    <div class="pt1">
+                        <div class="pt">
+                            <img src="./images/ser1.png" alt="">
+                            <div class="ptpt">
+                                <h1>Neuro Physiotherapy Rehab</h1>
+                                <p>Treats neurological conditions through targeted exercises to improve mobility,
+                                    strength,
+                                    and
+                                    coordination.</p>
+                                <button class="bookNowBtn">Book now</button>
+                            </div>
+                        </div>
+                        <div class="pt">
+                            <img src="./images/ser2.png" alt="">
+                            <div class="ptpt">
+                                <h1>Sports Injury Physiotherapy</h1>
+                                <p>Precision physiotherapy to accelerate recovery from sports injuries and optimize
+                                    performance.
+                                </p>
+                                <button class="bookNowBtn">Book now</button>
+                            </div>
+                        </div>
+                        <div class="pt">
+                            <img src="./images/ser3.png" alt="">
+                            <div class="ptpt">
+                                <h1>Chiropractor Treatment</h1>
+                                <p>Expert chiropractic care to relieve pain, improve alignment, and enhance overall
+                                    spinal
+                                    health.</p>
+                                <button class="bookNowBtn">Book now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt2">
+                        <div class="pt">
+                            <img src="./images/ser4.png" alt="">
+                            <div class="ptpt">
+                                <h1>Geriatric Physiotherapy</h1>
+                                <p>Specialized physiotherapy to enhance mobility, strength, and independence for older
+                                    adults.
+                                </p>
+                                <button class="bookNowBtn">Book now</button>
+                            </div>
+                        </div>
+                        <div class="pt">
+                            <img src="./images/ser5.png" alt="">
+                            <div class="musco">
+                                <h1>Musculoskeletal Physiotherapy</h1>
+                                <p>Targeted physiotherapy to treat and manage pain, injuries, and disorders affecting
+                                    muscles,
+                                    joints, and bones.
+                                </p>
+                                <button class="bookNowBtn">Book now</button>
+                            </div>
+                        </div>
+                        <div class="pt">
+                            <img src="./images/ser6.png" alt="">
+                            <div class="ptpt">
+                                <h1>Pediatric Physiotherapy</h1>
+                                <p>Specialized physiotherapy to support the growth, development, and mobility of
+                                    children
+                                    and
+                                    infants.</p>
+                                <button class="bookNowBtn">Book now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="./service.html">View more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service ends  -->
+
+
+    <!-- review starts -->
+    <div class="review-section">
+        <div class="container">
+            <div class="review">
+                <div class="recontent">
+                    <h1>What Our Clients Are Saying</h1>
+                    <p>Discover how our care has made a difference. Hear directly from those who have experienced our
+                        services.</p>
+                </div>
+                <div class="carousel">
+                    <div class="recontainer">
+                        <!-- Rept 1 -->
+                        <div class="rept r">
+                            <div class="rept1">
+                                <!-- <div>
+                                      <img src="./images/review.png" alt="">
+                                  </div> -->
+                                <div>
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <!-- <img src="./images/unfilledstar.png" alt=""> -->
+                                </div>
+                            </div>
+                            <h1>Pavani K P</h1>
+                            <p>"I had an excellent experience at Holistic Physiotherapy Clinic. The staff is
+                                professional,
+                                knowledgeable, and genuinely caring. They provided a personalized treatment plan that
+                                significantly improved my condition. The clinic is clean, well-equipped, and welcoming."
+                            </p>
+                        </div>
+                        <!-- Rept 2 -->
+                        <div class="rept">
+                            <div class="rept1">
+                                <!-- <div>
+                                      <img src="./images/review.png" alt="">
+                                  </div> -->
+                                <div>
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <!-- <img src="./images/unfilledstar.png" alt=""> -->
+                                </div>
+                            </div>
+                            <h1>Srinivasa Murthy</h1>
+                            <p>"I had a severe sciatica pain. I came here, doctor explain my conditions in detail and i
+                                took
+                                a treatment here for 20 days, now 95 % I feel good. Good treatment and good service.
+                                Thank
+                                you sir. Highly recommend this clinic."</p>
+                        </div>
+                        <!-- Rept 3 -->
+                        <div class="rept">
+                            <div class="rept1">
+                                <!-- <div>
+                                      <img src="./images/review.png" alt="">
+                                  </div> -->
+                                <div>
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <!-- <img src="./images/unfilledstar.png" alt=""> -->
+                                </div>
+                            </div>
+                            <h1>Pavithra BR</h1>
+                            <p>"I came with severe cervical radiculopathy.Doctor explain about my condition clearly and
+                                i
+                                took treatment for 25 days . Now I feel good and got good improvement also . Thank you
+                                so
+                                much Doctor and staffs."</p>
+                        </div>
+                        <!-- Rept 4 -->
+                        <div class="rept">
+                            <div class="rept1">
+                                <!-- <div>
+                                      <img src="./images/review.png" alt="">
+                                  </div> -->
+                                <div>
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <!-- <img src="./images/unfilledstar.png" alt=""> -->
+                                </div>
+                            </div>
+                            <h1>Raju Gomathi</h1>
+                            <p>"I came this clinic with severe sciatica problem. Doctor explain about my conditions and
+                                I
+                                took treatment here, now I completely cured and treatment was very satisfied.I highly
+                                recommend this clinic."</p>
+                        </div>
+                        <!-- Rept 5 -->
+                        <div class="rept">
+                            <div class="rept1">
+                                <!-- <div>
+                                      <img src="./images/review.png" alt="">
+                                  </div> -->
+                                <div>
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <!-- <img src="./images/unfilledstar.png" alt=""> -->
+                                </div>
+                            </div>
+                            <h1>Prathima Prathi</h1>
+                            <p>"The best service... I had seviour back pain., I took 15 sessions it was worth going and
+                                m so
+                                much relaxed and the treatment they gave was fully satisfied.. The doctor epziba who
+                                treated
+                                me was very kind and m so greatful to her."</p>
+                        </div>
+                    </div>
+                    <div class="indicators">
+                        <span class="indicator" onclick="currentSlide(1)"></span>
+                        <span class="indicator" onclick="currentSlide(2)"></span>
+                        <span class="indicator" onclick="currentSlide(3)"></span>
+                        <span class="indicator" onclick="currentSlide(4)"></span>
+                        <span class="indicator" onclick="currentSlide(5)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- review ends -->
+
+
+
+    <!-- footer starts -->
+<div class="footer-section">
+    <div class="container">
+        <footer class="footer">
+
+            <div class="foo1">
+                <div class="foo-img">
+                    <img src="./images/footerlogo.png" alt="Footer Logo">
+                </div>
+                <div class="foo-socials">
+                    <a href="https://www.facebook.com/share/DSW5BefenTbgnhMV/?mibextid=qi2Omg"><img
+                            src="./images/_Facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/holistic_physio_?igsh=MWlscGUwM3hoNTh4NA=="><img
+                            src="./images/_Instagram.png" alt="Instagram"></a>
+                    <a href="https://wa.me/8686285108">
+                        <i class="fa-brands fa-whatsapp fa-xl" style="color: #5dee76;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/holistic-physio/"><img src="./images/_Linkedin.png"
+                            alt="LinkedIn"></a>
+                    <a href="https://x.com/holisticpysio">
+                        <i class="fa-brands fa-x-twitter"
+                            style="font-size: 24px; color: black; vertical-align: middle;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="foo2">
+                <h1>Company</h1>
+                <ul>
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="./contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- footer ends -->
+
+
+
+<div class="copyright"></div>
+    <p style="text-align: center; margin: 10px;">&copy; 2024 Holistic Physiotherapy. All rights reserved. Designed by
+        <span><a style="text-decoration: none; color: #000; font-weight: 700;" href="https://www.rpinfocare.com/">RIPL</a></span>
+    </p>
+</div>
+
+
+    <script src="main.js"></script>
+
+
+    <script>
+        let slideIndex = 0;
+        const slideInterval = 3000;
+
+        function showSlides() {
+            const slides = document.querySelectorAll('.rept');
+            const indicators = document.querySelectorAll('.indicator');
+            const container = document.querySelector('.recontainer');
+
+            const slideWidth = slides[0].offsetWidth;
+            const newTransform = -(slideIndex * slideWidth);
+
+            container.style.transform = `translateX(${newTransform}px)`;
+
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+            indicators[slideIndex].classList.add('active');
+
+            slideIndex++;
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+
+            setTimeout(showSlides, slideInterval);
+        }
+
+        function currentSlide(n) {
+            slideIndex = n;
+            showSlides();
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            showSlides();
+        });
+
+    </script>
+</body>
+
+</html>
